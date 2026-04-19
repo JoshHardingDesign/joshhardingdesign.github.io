@@ -181,8 +181,19 @@ footer {
     h1 {
         font-size: 48px;
     }
+    
     p {
         font-size: 12px;
+    }
+
+    .hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 80vh;
+    }
+
+    .hero-right {
+        display: none;
     }
 
     .impact-metric {
@@ -214,8 +225,18 @@ footer {
 @media (min-width: 651px) and (max-width: 980px) {
     .impact-metric {
         font-size: 27px;
-}
+    }
+    
     p {
         font-size: 12px;
     }
-}
+
+    .hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 80vh;
+    }
+
+    .hero-right {
+        display: none;
+    }
