@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josh Harding - About Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+    <div>
+    <header>
+        <nav class="navigation">
+                <img src="./images/jh-logo-mark-white.svg" alt="JH Monogram" class="main_logo">
+            <div class="nav_group_links">
+                <ul>
+                    <li class="nav_items"><a href="#work-section">Work</a></li>
+                    <li class="nav_items"><a href="./about.html">About</a></li>
+                    <li class="nav_items"><a href="#contact-section">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>About Me</h1>
+        <p class="big-body">Quisque eros diam, imperdiet gravida libero non, laoreet accumsan neque. Etiam diam eros, pharetra a rhoncus vel, pretium ut libero. Fusce egestas id lorem et vestibulum. </p>
+        
+        <h2>More stuff</h2>
+        <p>Quick explaination about what you're about to see</p>
+        
+        <h3>Experience</h3>
+        
+        <h4 class="position">Product Designer</h4>
+        <p class="resume-company-date">ForeSite360  |  2019–Present</p>
+        <p>Lead designer for our flagship agent builder product. Took over as Product Owner, bringing the MVP into the next stage of it’s evolution. Designing the user flows. Shipping code. Casting the vision of product.</p>
+        
+        <h4 class="position">Art Director, Principal Design, Product Design</h4>
+        <p class="resume-company-date">Josh Harding Design  |  2016–2019</p>
+        <p>Became the fractional Art Director for a Baltimore-based branding agency, building and launching multiple national and international brands as well as designing multiple products, bringing them from MVP to Go-live.</p>
+
+        <h4 class="position">Design & Marketing Manager</h4>
+        <p class="resume-company-date" style="margin:0">Ceremony Coffee Roasters  |  2012–2016</p>
+        <p style="margin:0">Arriving after a fresh rebrand, I crafted the look and feel of the brand and customer experience driving trends in the  Specialty Coffee industry.</p>
+
+        <h3>Why Me?</h3>
+        <div class="why-me">
+            <div>
+                <h4>A Deep Instinct of Care</h4>
+                <p>From the day I was born I was raised to have a deep instinct of care for people. That initially came out in several service industry jobs where I found joy in service. As time went on I dedicated time and effort into making things for people, be that food, music, or art. This all lead me into product design because it allowed me to build spaces for people where they felt welcome and had the confidence that their needs would be met and surpassed.</p>
+            </div>
+            <div>
+                <h4>Relentless Curiosity</h4>
+                <p>I have never been content with confronting the unknown and stopping at “I don’t know”. I was always driven to find the answers to why or how something worked. When I initially went to school I studied Chemistry because it was a direct route to finding answers, but left me feeling empty because of that deeper need to make things for people that needed them. Product design allows me to find out the whys and hows, as well as build solutions for users.</p>
+            </div>
+            <div>
+                <h4>I Don’t Fear Problems</h4>
+                <p>I thrive in problem space. The curiosity mentioned above drives me to find out why problems exist, who they exist for, and how we can solve them. This is not just part of who I am at work, this is woven deep into who I am. When appliances break at home, I don’t just buy new ones, I figure out how to fix them. I learned early on that there are two ways do do something, you can do it right, or you can do it again. I take the time to understand the right way so we don’t have to solve the same problem again.</p>
+            </div>
+        </div>
+    </main>
+    </div>
+</body>
+</html>
