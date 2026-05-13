@@ -58,13 +58,19 @@ a {
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 80vh;
+    height: 75vh;
+}
+
+.hero-about {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    height: 40vh;
 }
 
 .big-body {
     font-size: 2.25rem;
     font-weight: 200;
-    line-height: 2rem;
+    line-height: 1.5em;
 
 }
 
@@ -163,6 +169,37 @@ a {
     margin-bottom: 50px;
 }
 
+.three-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.position {
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+.resume-company-date {
+    font-size: .75rem;
+    font-style: italic;
+    color: #9a9a9a;
+    margin: 0;
+}
+
+.resume-description {
+    margin-top: .5em;
+    color:#9a9a9a
+}
+
+.about-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.gray-text {
+    color: #9a9a9a;
+}
+
 h1 {
     font-size: 56px;
     color: #FFFFFF;
@@ -178,13 +215,18 @@ h3 {
     color: #FFFFFF;
 }
 
+h4 {
+    font-size: 18px;
+    color: #ffffff;
+}
+
 p {
     color: #FFFFFF;
-    line-height: 1.25rem;
+    line-height: 1.5rem;
 }
 
 .social-icon {
-    width: 45px;
+    width: 35px;
     margin-right: 20px;
     margin-top: 30px;
 }
@@ -289,6 +331,12 @@ footer {
     width: 80%;
     margin: 0 auto;
     }
+    
+    .three-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
 }
 
 @media (min-width: 402px) and (max-width: 980px) {
@@ -331,4 +379,10 @@ footer {
         height: 70vh;
 
     }
+
+    .three-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
 }
