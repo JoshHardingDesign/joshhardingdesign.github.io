@@ -67,6 +67,38 @@ a {
     height: 40vh;
 }
 
+.project-main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.hero-project {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+}
+
+.results-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    text-align: center;
+}
+
+.result-metric {
+    font-size: 5.625rem;
+    font-weight: 100;
+    color: #ffffff;
+    margin: 2rem;
+}
+
+.project-description {
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    margin: 0;
+}
+
 .big-body {
     font-size: 2.25rem;
     font-weight: 200;
@@ -169,6 +201,11 @@ a {
     margin-bottom: 50px;
 }
 
+.project-subsection {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .three-column {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -223,6 +260,10 @@ h4 {
 p {
     color: #FFFFFF;
     line-height: 1.5rem;
+}
+
+li {
+    color: #ffffff
 }
 
 .social-icon {
@@ -337,6 +378,12 @@ footer {
     grid-template-columns: 1fr;
     gap: 3rem;
 }
+    .hero-about {
+    display:grid;
+    grid-template-columns: 1fr;
+    height: 40vh;
+}
+
 }
 
 @media (min-width: 402px) and (max-width: 980px) {
@@ -384,5 +431,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     gap: 3rem;
+}
+    .hero-about {
+    display:grid;
+    grid-template-columns: 1fr;
+    height: 40vh;
 }
 }
