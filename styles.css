@@ -328,7 +328,13 @@ footer {
     .hero-right {
         display: none;
     }
-
+  
+    .hero-about {
+        display:grid;
+        grid-template-columns: 1fr;
+        height: 40vh;
+        margin-botton: 5rem;
+    }
     .impact-metric {
         font-size: 27px;
     }
@@ -408,6 +414,13 @@ footer {
     height: 80vh;
     }
 
+    .hero-about {
+    display:grid;
+    grid-template-columns: 1fr;
+    height: 40vh;
+    margin-botton: 5rem;
+    }
+  
     .hero-right {
         display: none;
     }
