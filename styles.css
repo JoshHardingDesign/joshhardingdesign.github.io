@@ -27,7 +27,7 @@ nav {
 .navigation {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 70%;
     /* margin-top: 5%; */
     margin: 2% auto;
 }
@@ -40,7 +40,7 @@ nav {
 }
 
 main {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -65,7 +65,7 @@ a {
     display:grid;
     grid-template-columns: 2fr 1fr;
     height: 40vh;
-    margin-botton: 5rem;
+    margin-bottom: 8rem;
 }
 
 .project-main-image {
@@ -214,9 +214,13 @@ a {
 }
 
 .position {
-    margin-top: 3rem;
     margin-bottom: 0;
 }
+
+.position + .position {
+    margin-top: 5rem;
+}
+
 .resume-company-date {
     font-size: .75rem;
     font-style: italic;
@@ -328,13 +332,7 @@ footer {
     .hero-right {
         display: none;
     }
-  
-    .hero-about {
-        display:grid;
-        grid-template-columns: 1fr;
-        height: 40vh;
-        margin-botton: 5rem;
-    }
+
     .impact-metric {
         font-size: 27px;
     }
@@ -389,6 +387,7 @@ footer {
     display:grid;
     grid-template-columns: 1fr;
     height: 40vh;
+    margin-bottom: 3rem;
 }
 
 }
@@ -414,13 +413,6 @@ footer {
     height: 80vh;
     }
 
-    .hero-about {
-    display:grid;
-    grid-template-columns: 1fr;
-    height: 40vh;
-    margin-botton: 5rem;
-    }
-  
     .hero-right {
         display: none;
     }
@@ -450,5 +442,6 @@ footer {
     display:grid;
     grid-template-columns: 1fr;
     height: 40vh;
+    margin-bottom: 3rem;
 }
 }
