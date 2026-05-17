@@ -402,6 +402,10 @@ footer {
         font-weight: 200;
     }
 
+    .navigation {
+      width: 80%;
+    }
+  
     main {
     width: 80%;
     margin: 10%;
