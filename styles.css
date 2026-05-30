@@ -336,6 +336,14 @@ footer {
         line-height: 1.25rem;
     }
 
+    .nav_items {
+        display: inline;
+        list-style: none;
+        font-size: .75rem;
+        color: #FFFFFF;
+        margin: 20px
+        }
+
     main {
         width: 80%;
         /* margin: 10%; */
@@ -450,6 +458,13 @@ footer {
     width: 80%;
     /* margin-top: 5%; */
     margin: 2% auto;
+}
+.nav_items {
+    display: inline;
+    list-style: none;
+    font-size: .75rem;
+    color: #FFFFFF;
+    margin: 20px
 }
 
     .hero {
