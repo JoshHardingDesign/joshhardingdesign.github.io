@@ -214,6 +214,11 @@ a {
     margin-bottom: 50px;
 }
 
+.project-subsection-title {
+    font-size: 1.125rem;
+    margin: 0;
+}
+
 .three-column {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -339,7 +344,7 @@ footer {
     .nav_items {
         display: inline;
         list-style: none;
-        font-size: .875rem;
+        font-size: .75rem;
         color: #FFFFFF;
         margin: 20px
         }
@@ -429,7 +434,7 @@ footer {
     gap: 3rem;
 }
     .hero-about {
-    display: grid;
+    display:grid;
     grid-template-columns: 1fr;
     height: 40vh;
     margin-bottom: 3rem;
@@ -462,7 +467,7 @@ footer {
 .nav_items {
     display: inline;
     list-style: none;
-    font-size: .875rem;
+    font-size: .75rem;
     color: #FFFFFF;
     margin: 20px
 }
