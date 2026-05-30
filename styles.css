@@ -438,6 +438,14 @@ footer {
     margin: 10%;
     }
 
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    /* margin-top: 5%; */
+    margin: 2% auto;
+}
+
     .hero {
     display: grid;
     grid-template-columns: 1fr;
