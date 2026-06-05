@@ -63,7 +63,7 @@ a {
 
 .hero-about {
     display:grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr;
     height: 40vh;
     margin-bottom: 8rem;
 }
