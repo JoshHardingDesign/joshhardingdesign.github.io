@@ -63,7 +63,7 @@ a {
 
 .hero-about {
     display:grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr `1fr;
     height: 40vh;
     margin-bottom: 8rem;
 }
@@ -72,12 +72,23 @@ a {
     width: 100%;
     height: auto;
     border-radius: 16px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.project-animation {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .hero-project {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 3rem;
+    align-items: start;
 }
 
 .results-project-3col {
@@ -103,6 +114,7 @@ a {
 
 .project-description {
     font-size: 1.5rem;
+    font-weight: 200;
     line-height: 1.5em;
     margin: 0;
 }
@@ -260,7 +272,7 @@ h1 {
 }
 
 h2 {
-    font-size: 44px;
+    font-size: 36px;
     color: #FFFFFF;
 }
 
