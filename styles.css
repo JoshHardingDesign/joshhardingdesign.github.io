@@ -76,14 +76,13 @@ a {
     margin-bottom: 2rem;
 }
 
-.project-animation {
+.project-video {
     width: 100%;
     height: auto;
     border-radius: 16px;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-
 .hero-project {
     display: grid;
     grid-template-columns: 2fr 1fr;
