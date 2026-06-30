@@ -80,8 +80,8 @@ a {
     width: 100%;
     height: auto;
     border-radius: 16px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 .hero-project {
     display: grid;
