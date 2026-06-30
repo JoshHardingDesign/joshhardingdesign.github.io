@@ -58,9 +58,19 @@ a {
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 75vh;
+    height: 50vh;
 }
 
+.hero2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 60vh;
+}
+
+.work-label {
+    font-size: 16px;
+    color:#9a9a9a
+}
 .hero-about {
     display:grid;
     grid-template-columns: 2fr `1fr;
@@ -132,6 +142,15 @@ a {
     align-self: center;
 }
 
+.hero-centered {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    height: 40vh;
+}
+
 .hero-right {
     display:flex;
     flex-direction: column;
@@ -141,6 +160,12 @@ a {
     width: auto;
     height: 100%;
     margin-top: auto;
+}
+
+.other-work {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 .project-widget {
@@ -218,6 +243,14 @@ a {
     border-radius: 8px;
     margin-top: 10px;
     margin-bottom: 50px;
+}
+
+.other-work-banner {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .project-subsection {
