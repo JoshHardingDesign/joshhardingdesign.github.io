@@ -414,6 +414,12 @@ footer {
         display: none;
     }
 
+    .other-work {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        }
+
     .impact-metric {
         font-size: 27px;
     }
@@ -532,6 +538,11 @@ footer {
         display: none;
     }
 
+    .other-work {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
     .hero-project {
         display: grid;
         grid-template-columns: 1fr;
